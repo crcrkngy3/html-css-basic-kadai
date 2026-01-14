@@ -1,12 +1,15 @@
 body{
   font-family: "Arial", "Meiryo", sans-serif;
   text-align: center;
+}
+
+html{
   font-size: 20px;
 }
 
 h1{
   /* フォント”GooglefontのJosefin Sans、総称フォントはsans-serif” */
-  font-family:Josefin Sans, sans-serif;
+  font-family:"Josefin Sans", sans-serif;
   /* フォントサイズルートサイズの２倍 */
   font-size: 2rem;
    /* 文字間1.2倍 */
