@@ -126,16 +126,19 @@ body{
 #nav-sp  a{
   display: block;
 }
+
 #nav-sp a:link,
 #nav-sp a:visited,
 #nav-sp a:hover,
 #nav-sp a:active{
  color: #ffffff;
 }
-#nav-sp a:hover{
-  text-decoration: underline;
+
+#nav-sp .menu:hover{
+  text-decoration: underline!important;
 }
-#nav-sp a:active{
+
+#nav-sp .menu:active{
   text-decoration: none;
 }
 
@@ -147,6 +150,7 @@ body{
   background-image: url("images/arrow.png");
   background-repeat: no-repeat;
   background-position: right top;
+  text-decoration: none;
   padding-right: 24px;
   line-height: 44px;
   font-weight: bold;
